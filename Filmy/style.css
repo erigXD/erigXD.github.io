@@ -1,0 +1,484 @@
+body {
+    background-color: rgb(126, 172, 233);
+}
+
+.up {
+    background-color: rgb(228, 227, 227);
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    user-select: none;
+}
+
+.stopka {
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 820px;
+    background-color: rgb(126, 172, 233);
+}
+
+.autor {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 1700px;  
+    top: 60px;
+}
+
+#menu {
+    height: 80px;
+    width: 80px;
+    float: left;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    animation-duration: 1s;
+    z-index: 1;
+    user-select: none;
+}
+
+#menu1 {
+    height: 80px;
+    width: 80px;
+    float: left;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    animation-duration: 1s;
+    z-index: 1;
+    user-select: none;
+    pointer-events: none;
+}
+
+.Home {
+    height: 80px;
+    width: 80px;
+    float: left;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+.home_text {
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    text-transform: uppercase;
+}
+
+.Kamera {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -10px;
+    left: 320px;
+}
+
+.Kamera1 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -10px;
+    left: 1480px;
+}
+
+.filmoteka {
+    position: absolute;
+    top: 15px;
+    left: 475px;
+    width: 1000px;
+    height: 100px;
+}
+
+.filmy_text {
+    font-size: 70px;
+    position: absolute;
+    top: -25px;
+    left: 880px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.artykuł1{
+    background-color: lightgray;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 10%;
+    position: relative;
+    top: 300px;
+    left: 700px;
+    /* display: inline-flex; ustawienie w lini */
+    gap: 15px;
+}
+
+.artykuł2{
+    background-color: lightgray;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 10%;
+    position: relative;
+    top: 300px;
+    left: 700px;
+}
+/* 
+.search {
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    left: 150px;
+    top: 40px;
+    font-size: 30px;
+}
+
+.lupa {
+    height: 40px;
+    width: 40px;
+    float: left;
+    position: relative;
+    left: -250px;
+    top: 45px;
+    z-index: 1;
+    opacity: 0.2;
+}
+
+.lupa:hover {
+    opacity: 0;
+} */
+
+#menubox {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left: 0%;
+    top: 132px;
+    opacity: 0;
+    position: fixed;
+    border: 3px solid black;
+    animation-duration: 1s;
+    z-index: -1;
+    text-align: center;
+}
+
+#spis {
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    pointer-events: none;
+}
+
+#mainbox {
+    border: 3px solid black;
+    width: 1300px;
+    height: 630px;
+    position: absolute;
+    top: 160px;
+    left: 325px;
+    background-color: white;
+    text-align: center;
+    animation-duration: 1s;
+    opacity: 1;
+    z-index: -2;
+    pointer-events: all;
+}
+
+#mainbox1 {
+    border: 3px solid black;
+    width: 1300px;
+    height: 630px;
+    position: absolute;
+    top: 160px;
+    left: 550px;
+    background-color: white;
+    text-align: center;
+    animation-duration: 1s;
+    opacity: 0;
+    z-index: -2;
+    pointer-events: none;
+}
+
+.nowosc {
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.kotWButach_img {
+    width: 300px;
+    height: 420px;
+    position: relative;
+    left: -100px;
+    top: 10px;
+}
+
+.kotWButach_img1 {
+    width: 300px;
+    height: 420px;
+    position: relative;
+    left: 0px;
+    top: 10px;
+}
+
+.kotWButach_img2 {
+    width: 300px;
+    height: 420px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+.kotWButach_img:hover {
+    scale: 110%;
+    transition: 0.5s;
+}
+
+.kotWButach_img1:hover {
+    scale: 110%;
+    transition: 0.5s;
+}
+
+.kotWButach_img2:hover {
+    scale: 110%;
+    transition: 0.5s;
+}
+
+.text_nowosc {
+    position: relative;
+    left: 50px;
+    top: -40px;
+    width: 530px;
+    height: 350px;
+}
+
+.box1 {
+    border: 2px solid black;
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    top: 175px;
+    left: 500px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.box2 {
+    border: 2px solid black;
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    top: 175px;
+    left: 1250px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.box3 {
+    border: 2px solid black;
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.box4 {
+    border: 2px solid black;
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    top: 550px;
+    left: 1250px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.box1:hover {
+    scale: 115%;
+    transition: 1s;
+}
+
+.box2:hover {
+    scale: 115%;
+    transition: 1s;
+}
+
+.box3:hover {
+    scale: 115%;
+    transition: 1s;
+}
+
+.box4:hover {
+    scale: 115%;
+    transition: 1s;
+}
+
+.piraci {
+    width: 550px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+#menuLink1 {
+    font-size: 60px;
+    position: relative;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    pointer-events: none;
+    top: -10px;
+}
+#menuLink2 {
+    font-size: 60px;
+    position: relative;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    pointer-events: none;
+    top: -10px;
+}
+#menuLink3 {
+    font-size: 60px;
+    position: relative;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    pointer-events: none;
+    top: -10px;
+}
+#menuLink4 {
+    font-size: 60px;
+    position: relative;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    pointer-events: none;
+    top: -10px;
+}
+#menuLink5 {
+    font-size: 60px;
+    position: relative;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    pointer-events: none;
+    top: -10px;
+}
+
+#menuLink1:hover {
+    font-size: 70px;
+    color: black;
+    transition: 0.2s;
+}
+
+#menuLink2:hover {
+    font-size: 70px;
+    color: black;
+    transition: 0.2s;
+}
+
+#menuLink3:hover {
+    font-size: 70px;
+    color: black;
+    transition: 0.2s;
+}
+
+#menuLink4:hover {
+    font-size: 70px;
+    color: black;
+    transition: 0.2s;
+}
+
+#menuLink5:hover {
+    font-size: 70px;
+    color: black;
+    transition: 0.2s;
+}
+
+@keyframes menubox {
+    0% {
+        top: -700px;
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+        top: 132px;
+    }
+}
+
+@keyframes menu {
+    10%{
+        transform: rotate(0deg);
+    }   
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes menuboxend {
+    0% {
+        top: 132px;
+    }
+
+    100% {
+        top: -700px;
+        opacity: 0;
+    }
+}
+
+@keyframes menuend {
+    10%{
+        transform: rotate(-0deg);
+    }   
+
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes toRight {
+    from {
+        left: 325px;
+    }
+
+    to {
+        left: 550px;
+    }
+}
+
+@keyframes toLeft {
+    from {
+        left: 550px;
+    }
+
+    to {
+        left: 325px;
+    }
+}
