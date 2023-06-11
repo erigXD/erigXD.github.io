@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komis Samochodowy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="zakup.css">
+    <script src="index.js"></script>
+</head>
+<body onload="OdczytajDane()">
+    <div class="header">
+        <div class="home">
+            <a href="index.html">
+                <img class="Logo" src="Obrazy/Logo.png" alt="Logo">
+            </a>
+        </div>
+    </div>
+    <div class="oknoZakupu">
+        <div id="opis">
+            <img class="image left" src="" id="img">
+            <p class="info" id="marka"></p>
+            <p class="info" id="rokProdukcji"></p>
+            <p class="info" id="silnik"></p>
+            <p class="info" id="przebieg"></p>
+            <p class="info" id="paliwo"></p>
+            <p class="info" id="cena"></p>
+        </div>
+        <br>
+        <input type="radio" name="formaPlatnosci" id="leasing"><label class="leasing" for="formaPlatnosci">Leasing</label><br>
+        <input type="radio" name="formaPlatnosci" id="gotowka"><label class="gotowka" for="formaPlatnosci">Gotówka</label>
+        <br>
+        <br>
+        <div class="wrap">
+        <div>
+            <label class="dane_osobowe" for="dane">Imie</label><br><input type="text" name="dane" class="dane_osobowe"> 
+            <br>
+            <br>
+            <label class="dane_osobowe" for="dane">Nazwisko</label><br><input type="text" name="dane" class="dane_osobowe">
+            <br>
+            <br>
+            <label class="dane_osobowe" for="dane">Miejsce odbioru</label><br><input type="text" name="dane" class="dane_osobowe">
+        </div>
+        <br>
+        <br>
+        <div>
+            <p class="napis_dodatki">Dodatki:</p>
+            <input class="dodatkowe_opcje" type="checkbox" name="dodatki" value="3000"><label class="dodatkowe_opcje" for="dodatki">Zestaw opon zimowych + 3000zł</label>
+            <br>
+            <input class="dodatkowe_opcje" type="checkbox" name="dodatki" value="500"><label class="dodatkowe_opcje" for="dodatki">Ubezpieczenie + 500zł</label>
+            <br>
+            <input class="dodatkowe_opcje" type="checkbox" name="dodatki" value="350"><label class="dodatkowe_opcje" for="dodatki">Darmowa myjnia na rok + 350zł</label>
+            <br>
+            <input class="dodatkowe_opcje" type="checkbox" name="dodatki" value="1500"><label class="dodatkowe_opcje" for="dodatki">Gwarancja na 3 lata + 1500zł</label>
+            <br>
+            <input class="dodatkowe_opcje" type="checkbox" name="dodatki" value="10000"><label class="dodatkowe_opcje" for="dodatki">Tuning driftowy + 10000zł</label>
+        </div>
+        </div>
+        <br>
+        <input class="zakup" type="button" value="Potwierdź Zakup" onclick="Potwierdz()" id="potwierdz">
+    </div>
+</body>
+</html>

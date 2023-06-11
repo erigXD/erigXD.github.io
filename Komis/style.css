@@ -1,0 +1,142 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(162, 177, 185);
+    z-index: 10;
+}
+
+.Logo {
+    height: 70px;
+    width: 150px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.Marki {
+    width: 100%;
+    height: 1820px;
+    background-color: rgb(162, 166, 168);
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+
+#auto {
+    float: left;
+    width: 97%; 
+    height: 275px;
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: #c0c0c0;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.Search{
+    font-size: 30px;
+    position: absolute;
+    left: 190px;
+    top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Search select {
+    font-size: 20px;
+}
+
+.cars h1 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    white-space:nowrap;
+    max-width: 180px;
+}
+
+.cars h2 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: -60px;
+    top: 20px;
+    white-space: nowrap;
+    min-width: 320px;
+}
+
+.cars h3 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 50px;
+    left: -150px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.cars img {
+    width: 500px;
+    height: 274px;
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+}
+
+   .kup {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    left: -325px;
+    top: 180px;
+    font-family: Phantomsans, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 200px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    height: 60px;
+   }
+   
+   .kup:active,
+   .kup:hover {
+    outline: 0;
+   }
+   
+   .kup span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+   
+   .kup:hover span {
+    background: none;
+   }
+   
+   .kup:active {
+    transform: scale(0.9);
+   }

@@ -1,0 +1,200 @@
+#raty{
+    display: none;
+    width: 50px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+#ratyLabel{
+    display: none;
+}
+
+#potwierdz{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+#opis{
+    width: 1000px;
+    height: 250px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.image{
+    margin-right: 300px;
+}
+
+.oknoZakupu{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #c0c0c0;
+    border: 5px solid #424242;
+    border-radius: 5px;
+    width: 1000px;
+}
+
+@media (max-width: 1450px){
+    #opis{
+        width: 750px;
+    }
+    .oknoZakupu{
+        width: 750px;
+    }
+    .image{
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 950px){
+    #opis{
+        width: 500px;
+    }
+    .oknoZakupu{
+        width: 500px;
+    }
+    .info{
+        font-size: large;
+    }
+    .image{
+        height: 150px;
+        margin-right: 50px;
+    }
+}
+
+body{
+    background-color: rgb(162, 166, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+#main{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+
+.info{
+    font-size: xx-large;
+    position: relative;
+    left: 110px;
+    top: 25px;
+    margin: 0px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.image{
+    width: 500px;
+    height: 274px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.info1{
+    font-size: xx-large;
+    position: relative;
+    margin: 0px;
+}
+
+.leasing {
+    font-size: 25px;
+    position: relative;
+    left: -420px;
+    top: 20px;
+}
+
+.gotowka {
+    font-size: 25px;
+    position: relative;
+    left: 300px;
+    top: -8.1px;
+}
+
+#leasing {
+    position: relative;
+    left: -420px;
+    top: 17px;
+}
+
+#gotowka {
+    position: relative;
+    left: 300px;
+    top: -12px;
+}
+
+.dane_osobowe{
+    position: relative;
+    left: 50px;
+}
+
+.dodatkowe_opcje{
+    position: relative;
+    left: -450px;
+    top: -40px;
+    font-size: 20px;
+}
+
+.napis_dodatki{
+    position: relative;
+    left: -445px;
+    top: -15px;
+    font-size: 25px;
+}
+
+.zakup {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    left: -325px;
+    top: 180px;
+    font-family: Phantomsans, sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 400px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    height: 60px;
+   }
+   
+   .zakup:active,
+   .zakup:hover {
+    outline: 0;
+   }
+   
+   .zakup:hover span {
+    background: none;
+   }
+   
+   .zakup:active {
+       transform: scale(0.9);
+    }
