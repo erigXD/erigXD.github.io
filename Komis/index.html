@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Komis Samochodowy</title>
+</head>
+<body>
+    <div class="header">
+        <div class="home">
+            <a href="index.html">
+                <img class="Logo" src="Obrazy/Logo.png" alt="Logo">
+            </a>
+        </div>
+    <div class="Search">
+        <label>MARKA:</label>
+        <select name="cars" id="cars" onchange="selection()">
+            <option value="all">Wszystkie</option>
+            <option value="opel">Opel</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="ford">Ford</option>
+        </select>
+    </div>
+    </div>
+    <div class="Marki">
+        <div class="Audi cars" id="auto">
+            <img src="Obrazy/AUDI Q5.png" alt="AUDI Q5">
+            <h1>AUDI Q5</h1>
+            <h3>Rok produkcji: 2017 <br>
+            Przebieg: 72 386 km <br>
+            Silnik: 1.9 TDI 150 KM <br>
+            Paliwo: Diesel</h3>
 
+            <h2>Cena: 170 000zł</h2>
+            <input class="kup" type="button" value="KUP" onclick="WczytajDane(0)">
+
+        </div>
+        <div class="BMW cars" id="auto">
+            <img src="Obrazy/BMW_Seria_3.png" alt="BMW Seria 3">
+            <h1>BMW 318d</h1>
+            <h3>Rok produkcji: 2018 <br>
+            Przebieg: 121 800 km <br>
+            Silnik: 1.8 D 150 KM <br>
+            Paliwo: Diesel</h3>
+
+            <h2>Cena: 94 000zł</h2>
+            <input class="kup" type="button" value="KUP" onclick="WczytajDane(1)">
+        </div>
+        <div class="Opel cars" id="auto">
+            <img src="Obrazy/OPEL Meriva.png" alt="BMW Seria 3">
+            <h1>OPEL Meriva</h1>
+            <h3>Rok produkcji: 2011 <br>
+            Przebieg: 205 993 km <br>
+            Silnik: 1.4 120 KM <br>
+            Paliwo: Benzyna</h3>
+
+            <h2>Cena: 23 500zł</h2>
+            <input class="kup" type="button" value="KUP" onclick="WczytajDane(2)">
+        </div>
+        <div class="Opel cars" id="auto">
+            <img src="Obrazy/OPEL Astra.png" alt="BMW Seria 3">
+            <h1>OPEL Astra</h1>
+            <h3>Rok produkcji: 2017 <br>
+            Przebieg: 121 900 km <br>
+            Silnik: 1.6 CDTI 110 KM <br>
+            Paliwo: Diesel</h3>
+
+            <h2>Cena: 50 500zł</h2>
+            <input class="kup" type="button" value="KUP" onclick="WczytajDane(3)">
+        </div>
+        <div class="Ford cars" id="auto">
+            <img src="Obrazy/FORD Edge.png" alt="BMW Seria 3">
+            <h1>FORD Edge</h1>
+            <h3>Rok produkcji: 2016 <br>
+            Przebieg: 89 000 km <br>
+            Silnik: 2.0 TDCI 210 KM <br>
+            Paliwo: Diesel</h3>
+
+            <h2>Cena: 111 000zł</h2>
+            <input class="kup" type="button" value="KUP" onclick="WczytajDane(4)">
+        </div>
+        <div class="Mercedes cars" id="auto">
+            <img src="Obrazy/Mecedes.png" alt="BMW Seria 3">
+            <h1>MERCEDES-BENZ C Klasa</h1>
+            <h3>Rok produkcji: 2016 <br>
+            Przebieg: 107 845 km <br>
+            Silnik: 2.0 D 136 KM <br>
+            Paliwo: Diesel</h3>
+
+            <h2>Cena: 99 900zł</h2>
+            <input class="kup" type="button" value="KUP" onclick="WczytajDane(5)">
+        </div>
+    </div>
+</body>
+</html>
